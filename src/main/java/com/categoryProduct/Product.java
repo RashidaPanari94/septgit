@@ -8,7 +8,7 @@ public class Product {
 	@Id
 	int product_id;
 	String name;
-	int price;
+	double  price;
 
 	
 	public Product() {
@@ -44,5 +44,5 @@ public class Product {
 		return "Product [product_id=" + product_id + ", name=" + name + ", price=" + price + "]";
 	}
 	
-
+	System.out.println("hello");
 }
